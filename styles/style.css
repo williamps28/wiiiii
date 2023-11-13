@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(180, 4, 4);
+    color: rgb(7, 6, 7);
+    border-image: space; 
+
+}
+/* use sempre MARGIN AUTO PARA CENTRALIZAR IMAGENS   */
+header div{
+    width: fit-content;
+    margin: auto;
+}
+h1{
+    color: rgb(245, 224, 32);
+    text-align: center;
+    font-style: oblique;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-size: 2rem;
+    padding: 20px;
+}
+.banner{
+    background-color:rgb(15, 15, 15);
+    border: 3px solid rgb(83, 83, 15);
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 4fr 4fr ;
+}
+.banner div{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    background-color: rgb(245, 202, 11);
+    padding: 40px;
+    border: 20px solid rgb(15, 15, 15);
+    border-radius: 30%;
+}
+.banner{
+    width: fit-content;
+    margin: auto;
+   
+}
+ul img{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    border: 3px solid rgb(180, 4, 4);
+    border-radius: 50%;
+    
+}
+h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+
+footer {
+    color: black
+    justify-content: center;
+
+}
+
+p{
+    display: flex;
+   justify-content: flex-end;
+
+}
+.icons{
+    width: fit-content;
+    margin: auto;
+   
+}
+.perfil{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+
+}
